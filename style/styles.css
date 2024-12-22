@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Montauk Bold';
+    src: url('/fonts/Montauk-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montauk Italic';
+    src: url('/fonts/Montauk-Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montauk Light';
+    src: url('/fonts/Montauk-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montauk Regular';
+    src: url('/fonts/Montauk-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Fugaz One';
+    src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+}
+
+/* @media (max-width: 768px) {
+    .col {
+        flex-basis: 100%;
+    }
+} */
+
+.navbar-nav .nav-link {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-image: url('/imgs/bgtexture.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    /* overflow-x: hidden; */
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Montauk Regular', sans-serif;
+    color: #5F002B;
+}
+
+h1,h2{
+    color: #5F002B;
+    font-family: 'Fugaz One';
+}
+
+.navbar-nav a {
+    color: #5F002B; /* Replace with your desired color */
+}
+
+/* .caterHero-image {
+    background-image: url("/imgs/cateringHero.jpg");
+  
+    height: 75%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:88%
+    /* position: relative; */
+  
+
+  body, html {
+    height: 100%;
+}
+
+.caterBgWhite{
+    background-color: white;
+    /* width: 100%; */
+    
+}
+.crtWhite{
+    background-color: white;
+}
+
+.ctrContainer{
+    width: 88%;
+    height: 75%
+}
+
+.photorBgWhite{
+    background-color: white;
+    width: 88%;
+}
+
+.ctrContainer2{
+    width: 88%;
+    height:60%;
+}
+
+.ctrBox{
+    background-image: url("/imgs/cateringMaine.jpg"); 
+    height:100%;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    background-position: center;
+}
+.imgBorder{
+    border: 10px solid white;
+}

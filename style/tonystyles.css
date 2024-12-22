@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Montauk Bold';
+    src: url('/fonts/Montauk-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montauk Italic';
+    src: url('/fonts/Montauk-Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montauk Light';
+    src: url('/fonts/Montauk-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montauk Regular';
+    src: url('/fonts/Montauk-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Fugaz One';
+    src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+}
+
+
+.site-footer {
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #5F002B;
+    
+  }
+  
+  .site-text{
+  font-family: 'Fugaz One', sans-serif;
+    font-size: 50px;
+}
+
+.foodtitle-text{
+    font-family: 'Fugaz One', sans-serif;
+    color: #5F002B;
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+}
+
+.fooddescr-text{
+    font-family: 'Montauk Light';
+    color: #5F002B;
+
+    font-size: 18px;
+    padding-top: 0cap;
+    margin-top: 0%;
+    padding-bottom: 0px;
+
+    margin-bottom: 0;
+}
+
+.fooditem-text{
+    font-family: 'Montauk Light';
+    color: #5F002B;
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+}
+
+.spacing{
+
+     border-top: 1.5px solid; 
+    color: #5F002B;
+    padding-bottom: 30px;
+}
+
+.pricing-text{
+    font-family: 'Montauk Light';
+    color: #5F002B;
+    font-size: 27px;
+}
+
+.foodtitledescr-text{
+    font-family: 'Montauk Light';
+    color: #5F002B;
+    font-size: 18px;
+    padding-top: 0cap;
+    margin-top: 0%;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+
+}
